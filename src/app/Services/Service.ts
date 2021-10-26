@@ -11,7 +11,12 @@ export class UserService {
   }
 
   getUserList(): Observable<any> {
-    const url = 'api/users?page=2';
+    const url = 'api/City/GetAllCities';
+    return this.httpHelper.getHelper(url);
+  }
+
+  getCountryList(): Observable<any> {
+    const url = 'api/Country/GetAllCountry';
     return this.httpHelper.getHelper(url);
   }
 

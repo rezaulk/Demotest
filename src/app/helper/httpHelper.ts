@@ -9,7 +9,7 @@ export class HttpHelper {
   static numberOfRequest = 0;
   private timeOutTime = 60000;
   
-  private baseUrl = 'https://reqres.in/';
+  private baseUrl = 'https://localhost:44385/';
 
 
 
